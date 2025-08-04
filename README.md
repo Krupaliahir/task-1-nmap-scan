@@ -24,7 +24,7 @@ Scan the local network to discover live hosts and open ports, assess potential s
 ### 1. Identified Local IP Range
 
 Used `ipconfig` (on Windows) or used `ifconfig` (on Linux) to find my IP address:
-IPv4 Address: 192.168.137.128
+IPv4 Address: `192.168.137.128`
 
 From this, the subnet range is: `192.168.137.0/24`
 
