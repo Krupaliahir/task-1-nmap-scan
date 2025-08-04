@@ -33,7 +33,7 @@ From this, the subnet range is: `192.168.137.0/24`
 ### 2. Ran Nmap TCP SYN Scan
 
 Command used:
-nmap -sS 192.168.137.0/24 
+`nmap -sS 192.168.137.0/24` 
 
 ---
 
@@ -42,9 +42,7 @@ Opened Wireshark and started capture on active network interface
 
 Ran the same Nmap scan while capturing
 
-Applied filters like:
-
-tcp.flags.syn == 1 && tcp.flags.ack == 0
+Applied filters like: `tcp.flags.syn == 1 && tcp.flags.ack == 0`
 
 Observed handshake attempts and responses
 
